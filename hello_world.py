@@ -1,15 +1,23 @@
 
-_list = []
-_list2 = []
+list1 = []
+list2 = []
 
 exclamation = "!"
 typo = "World"
 tipo = "Hello"
 
-def hello_world(times):
+def hello_world():
+    
+    list1 = []
+    list2 = []
+
     for letter in tipo:
-         _list += letter
+        list1 += letter
     for letters in typo:
-          _list2 += letters
+        list2 += letters
+    join(list1, list2)
+    
+hello_world()
           
 print("Hello World!")
+print(list1)
